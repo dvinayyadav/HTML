@@ -1,0 +1,73 @@
+Html :
+    * it is used to create structure of web app.
+    * it is used to display data to user on browser.
+    * it stands for Hyper Text Markup Language.
+    * latest version is html5
+    * it is tag based Language
+
+
+Types of tags
+    1. paired tag :<start tag> </ending tag>
+    2. unpair tag :<single tag>
+
+
+ Steps to create html file :
+    step 1:create HTML file filename.html or filename.htm
+    step 2: write code in it.
+    step 3:execute in on browser.   
+    
+    DOCTYPE html : it tell search engine that this html document belongs to version 5
+
+
+head : it contain external linal links and meta data in it.
+body : write code to display an browser.   
+
+ELEMENT : it contains starting tag, ending tag, content.
+<startingTag attribute ="VALUE"> content </endingTag>
+
+ATTRIBUTE :
+   * it provides additional information about tag.
+   * it always write in starting tag.
+   * it comes with key and value pairs fromate.
+
+ Types of ELEMENT :
+    1.BLOCK ELEMENT : element which takes 100% width of its screen.
+                    - it always start on new line.
+                    - ex: h1-h2,p,li,table,form.
+    2.INLINE ELEMENT : the element which takes required width of it.
+                     - it will never start on new line.
+                     - ex : b,i,u,img,a.....
+
+Types of LISTS in HTML :
+ there are 3 types of lists in html 5
+    1. ORDERED LIST (ol):  types => numbers,A B C, a b c, I II III, i ii iii
+    2. UNOREDERED LIST(ul) :  types =>disc,circle, square,none.
+    3. DESCRIPTION LIST(dl) :  there are tags
+                                        * dl : description list.
+                                        * dt : define term.
+                                        * dd : define defination.
+
+
+Difference between html and html5/ Features of html5 :
+    * Symantic elements introduce : the element which has meaning in its name only.                    
+                                    ex : header, footer, main, section, aside.
+    * new input type,new attribute and new tag.
+    * multimedia element introduction : we can insert video and audio files.
+    * HTML API introduce : 
+                - Geolocation : it returns user current location.if u wan to use GPS must have install in system.
+                - Drag and Drop : grabbing an object from one location and put another place.
+                - web_worker : it is small javascript code which excutes at backend of browser without affecting its current location.
+                - web storage : it is used to store user data on browser.
+                               -there are two types of web_storage.
+                                      1.local storage : it is used  to store user data for permanatly.
+                                      2.session storage : it is use to store user data for limited time.
+                -SSE(Server Sent Event) : it allows us to get automatic update from server.
+
+ iframe : it is use to create small window in webpage
+     - we can use iframe tag for :
+                                  1.display youtube video.
+                                  2.display googlemap location.
+                                  3.display one website into another website.
+
+TABLE : Collection of rows and columns
+                                                    
