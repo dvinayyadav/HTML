@@ -1,0 +1,90 @@
+
+ CSS : it is used to design webapp and to make it responsive.
+      -css stands for Cascading Style Sheet.
+      -latest version of css is css-3
+
+
+Types of CSS:
+     1: Inline CSS :Inside a starting tag we use style attribute and in that we write property and value.
+     2: Internal CSS :In html file we use style tag in that we select element apply css property.
+      Syntax :   selector{
+                property:value;
+                property:value;
+                property:value;
+                }
+    3: external CSS :In this we create a seperate css file and import that css in html file head portion.
+     Syntax :   selector{
+                property:value;
+                property:value;
+                property:value;
+                }
+
+
+selectors in css: selecting an element
+    1: element or tag name selector : in this we use element or tag name to apply css property.
+    2: group selector :in this we make group selector to apply css property.
+    3: id selector(#) :if you have to apply css property to an single element in that case we use it.
+    4: class selector(.) :when you have to apply bunch of css property to specific element in that case we use it.
+    5: universal selector (*):when we have to apply all css property to all element available in html page.          
+
+
+Border : A line around an element
+
+BOX MODEL : it contains four point
+ 1. content : it can be any image or text.
+ 2. padding :it is use to clear area between content and element border.
+ 3. border : a line drawn around an element.
+ 4. margin :it is used to clear area outside element border.
+
+
+
+ NOTE : INCLINE element can be convert BLOCK Element using "display  : block"
+
+ (visibility : hidden )---- id hides the img and space remains constant we cannot access that space.
+ (display : none )-------id hides tha img and space also we can access
+
+
+
+POSITION : 
+           -it is use to move element after applying left,right,top,bottom property value.
+           -by default every element has position: static
+                  1. position: static; (default)
+                  2. position: relative; e;elementwill move from left,right,top and bottom side.
+                  3. position: absolute; when we want to move child element according to its parent element.
+                  4. position: fixed; when we have to fixed on screen window.
+                  5.position: sticky; when we have to stick elementon screen window.
+
+
+Media query: it is used to apply diiferent style rule to an element according to different screen width;
+     Syntax : @media screen and (screen-width){
+        css code
+     }                   
+
+     device screen-width >= 1200px XL screen
+     device screen-width >= 992px LG screen
+     device screen-width >= 768px MD screen
+     device screen-width >= 576px SM screen
+     device screen-width < 576px XSM screen
+
+
+     screen width :
+         1. max_width : css property will be applicable from its minimum width to its max width but not above to it.
+         2. min_width : css property will be applicable from its minimum width to above.
+
+
+
+Box-Sizing : it includes element border size and element padding size in its actual width
+     box-sizing:border-box;
+
+
+FlOAT : it is used to move block element side by side.
+       - it has three values----Left,Right,None     
+
+
+OVERFLOW : it is used to fit big content into small box.
+        - overflow:visible;  (default)
+        - overflow:hidden;  //content going outside will be hide.
+        - overflow:scroll; // it will fix big content into box and and add scroll bar.
+
+FLEX : it is used to manage website layout with different screen width.
+      - to use it we have to apply "display:flex"                        

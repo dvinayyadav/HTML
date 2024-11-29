@@ -1,0 +1,30 @@
+*{
+
+}
+
+
+header{
+   
+    border-bottom: 5px solid red;
+    background-color: aquamarine;
+    font-size: 47px;
+    text-transform: uppercase;
+    display: flex;
+    font-weight: 800;
+    text-shadow: 4px 3px 4px BLACK
+    
+   
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 179px;
+    border: 2px green solid;
+    box-shadow: 8px 0px 5px black
+}
+h2{
+    font-size: 47px;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-shadow: 4px 3px 4px BLACK
+}

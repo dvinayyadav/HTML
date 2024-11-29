@@ -1,0 +1,32 @@
+/* tag element selector */
+h2{
+    text-align: center;
+    color: blue;
+}
+/* group selector */
+
+b,u,ins{
+    text-transform: lowercase;
+    color: aqua;
+    font-style: italic;
+    font-size: 25px;
+}
+
+/* id selector */
+#d4{
+    text-decoration: dotted;
+    color: blueviolet;
+    text-transform: capitalize;
+    text-align:right;
+
+}
+/* class selector */
+.txt_align{
+    color: red;
+    text-transform: uppercase;
+    text-align:center;
+}
+/* universal selector */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}

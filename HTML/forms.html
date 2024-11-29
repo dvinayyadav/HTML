@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div>
+        <label for="uname">Enter you fullName :</label>
+        <input type="text" name="fname" id="uname" minlength="2" maxlength="20" pattern="^[a-zA-Z ]{2,20}$" placeholder="enter your fullName" required >
+    </div>
+    <div>
+        <label for="upass">Enter you password :</label>
+        <input type="password" name="pass" id="upass" minlength="8"  placeholder="enter your passwod" required >
+    </div>
+    <div>
+        <label for="umail">Enter you email :</label>
+        <input type="email" name="mymail" id="umail"   placeholder="enter your email" required >
+    </div>
+    <div>
+        <label for="phone">Enter your Contact number :</label>
+        <input type="tel" name="Mobile" id="phone" pattern="^[0-9]{9,11}$"  placeholder="enter your contatct number" required >
+    </div>
+    <div>
+        <label for="dob">Select your DOB</label>
+        <input type="date" name="DOB" id="dob" placeholder="select your DOB" required >
+    </div>
+    <div>
+        <label for="gen">Select your gender :</label>
+        <input type="radio" name="gender" id="gen"  value="male" checked >male
+        <input type="radio" name="gender" id="gen"  value="female" >female
+        <input type="radio" name="gender" id="gen"  value="Transgender">Transgender
+    </div>
+
+    <div>
+        <label for="edu">Select your qualifications</label>
+        <input type="checkbox" name="education" id="edu" value="SSC">SSC
+        <input type="checkbox" name="education" id="edu" value="INTERMEDIATE">INTERMEDIATE
+        <input type="checkbox" name="education" id="edu" value="UG">UG
+        <input type="checkbox" name="education" id="edu" value="PG">PG
+    </div>
+  <div>
+    <label for="">Select your course</label>
+    <select name="courses" id="" required>
+    <option value="">Select your course</option>
+    <option value="java">java</option>
+    <option value="python">Python</option>
+    <option value="Dont net">Dot Net</option>
+    <option value="testing">testing</option>
+</select>
+  </div>
+
+  <div>
+    <label for="">Give your feedback</label>
+    <textarea name="" id=""></textarea>
+  </div>
+
+  <div>
+    <label for="fees">fees</label>
+    <input type="text" name="fees" id="fees" value="10000" readonly disabled>
+  </div>
+
+    <button type="submit">submit</button>
+    </form>
+
+  
+</body>
+</html>

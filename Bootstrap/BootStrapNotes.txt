@@ -1,0 +1,11 @@
+BOOTSTRAP : it is html,css and javascript framework.
+           - it makes web app attractive, responsive and mobile friendly.
+           - it provide inbuilt classes.
+           - latest version of bootstrap is bootstrap5
+
+
+There are teo ways to use bootstrap :
+            1: By using CDN link : for this you must have internet in your system.
+            2: By downloading:  only for downloading we require internet connection and for use not require internet.
+
+Official website :-------getboostrap.com                       
